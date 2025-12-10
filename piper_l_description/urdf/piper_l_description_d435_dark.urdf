@@ -290,7 +290,7 @@
       </geometry>
     </visual>
     <collision>
-      <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
+      <origin rpy="0.0 3.14 1.57" xyz="0.0 0.0 0.0"/>
       <geometry>
         <mesh filename="package://piper_l_description/meshes/dae/realsense_mid_stand_v2.dae"/>
       </geometry>
