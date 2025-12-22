@@ -313,39 +313,39 @@
       velocity="10" />
   </joint>
   <link
-    name="Link6">
+    name="link6">
     <inertial>
-      <origin xyz="-0.00006 -0.00003 0.04448" rpy="0 0 0"/>
-      <mass value="0.52"/>
+      <origin xyz="0 0 -0.00351" rpy="0 0 0"/>
+      <mass value="0.01"/>
       <inertia
-        ixx="0.00151445"
-        ixy="0.00000048"
-        ixz="0.00000003"
-        iyy="0.00162326"
-        iyz="0.00000277"
-        izz="0.00030728"/>
+        ixx="0.00000064"
+        ixy="0"
+        ixz="0"
+        iyy="0.00000064"
+        iyz="0"
+        izz="0.00000106"/>
     </inertial>
     <visual>
       <origin
-        xyz="0.002 0.0078 0.06"
-        rpy="-1.57 0 3.14" />
+        xyz="0 0 0"
+        rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://piper_x_description/meshes/dae/gripper_base_100_v2.dae" scale="0.8 0.8 0.8"/>
+          filename="package://piper_x_description/meshes/link6.STL" />
       </geometry>
       <material
         name="">
         <color
-          rgba="1 1 1 1" />
+          rgba="0.898039215686275 0.917647058823529 0.929411764705882 1" />
       </material>
     </visual>
     <collision>
       <origin
-        xyz="0.002 0.0078 0.06"
-        rpy="-1.57 0 3.14" />
+        xyz="0 0 0"
+        rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://piper_x_description/meshes/dae/gripper_base_100_v2.dae" scale="0.8 0.8 0.8"/>
+          filename="package://piper_x_description/meshes/link6.STL" />
       </geometry>
     </collision>
   </link>
@@ -367,79 +367,5 @@
       effort="100"
       velocity="10" />
   </joint>
-  <link name="Link7">
-    <inertial>
-    <origin
-        xyz="0.000277816920932317 -0.0467673824063769 -0.00921030054508036"
-        rpy="0 0 0" />
-    <mass value="0.0264822021416248" />
-    <inertia
-        ixx="9.99779119357223E-06"
-        ixy="-1.57542283433504E-07"
-        ixz="2.71367446701359E-08"
-        iyy="6.17952441557932E-06"
-        iyz="1.58939319453383E-06"
-        izz="1.4210192754512E-05" />
-    </inertial>
-    <visual>
-      <geometry>
-        <mesh filename="package://piper_x_description/meshes/dae/J7.dae" />
-      </geometry>
-      <material name="LightGrey">
-        <color rgba="0.7 0.7 0.7 1.0"/>
-      </material>
-    </visual>
-    <collision>
-      <geometry>
-        <mesh filename="package://piper_x_description/meshes/dae/J7.dae" />
-      </geometry>
-    </collision>
-  </link>
-
-    <joint name="joint7" type="prismatic">
-        <origin xyz="0 0 0.13503" rpy="1.5708 0 1.5708" />
-        <parent link="Link6" />
-        <child link="Link7" />
-        <axis xyz="0 0 -1" />
-        <limit lower="0" upper="0.05" effort="100" velocity="1" />
-    </joint>
-
-    <link name="Link8">
-        <inertial>
-        <origin
-            xyz="0.000277816920932317 0.0467673824063769 -0.00921030054508036"
-            rpy="0 0 0" />
-        <mass value="0.0264822021416248" />
-        <inertia
-            ixx="9.99779119357223E-06"
-            ixy="-1.57542283433504E-07"
-            ixz="2.71367446701359E-08"
-            iyy="6.17952441557932E-06"
-            iyz="1.58939319453383E-06"
-            izz="1.4210192754512E-05" />
-        </inertial>
-        <visual>
-        <origin xyz="0 0 0" rpy="0 0 0" />
-        <geometry>
-          <mesh filename="package://piper_x_description/meshes/dae/J8.dae" />
-        </geometry>
-        <material name="">
-            <color rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
-        </material>
-        </visual>
-        <collision>
-        <origin xyz="0 0 0" rpy="0 0 0" />
-        <geometry>
-          <mesh filename="package://piper_x_description/meshes/dae/J8.dae" />
-        </geometry>
-        </collision>
-    </link>
-    <joint name="joint8" type="prismatic">
-        <origin xyz="0 0 0.13503" rpy="-1.5708 0 1.5708" />
-        <parent link="Link6" />
-        <child link="Link8" />
-        <axis xyz="0 0 1" />
-        <limit lower="-0.05" upper="0" effort="100" velocity="1" />
-    </joint>
-
+  
 </robot>
