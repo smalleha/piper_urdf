@@ -207,13 +207,13 @@
     <visual>
       <origin rpy="0.0 0 0" xyz=" 0.00 0.0 0"/>
       <geometry>
-        <mesh filename="package://piper_description/meshes/dark_dae/link6_.dae"/>
+        <mesh filename="package://piper_description/meshes/dae/link6_.dae"/>
       </geometry>
     </visual>
     <collision>
-      <origin rpy="-1.57 0 0" xyz="-0.002 -0.008 0"/>
+      <origin rpy="0.0 0 0" xyz=" 0.00 0.0 0"/>
       <geometry>
-        <mesh filename="package://piper_description/meshes/dae/camera_v3.dae"/>
+        <mesh filename="package://piper_description/meshes/dae/link6_.dae"/>
       </geometry>
     </collision>
   </link>
@@ -237,9 +237,9 @@
       </geometry>
     </visual>
     <collision>
-      <origin rpy="0 3.14 0" xyz="-0.001 0 0.0003"/>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://piper_description/meshes/link7.STL"/>
+        <mesh filename="package://piper_description/meshes/dae/link7.dae"/>
       </geometry>
     </collision>
   </link>
@@ -263,9 +263,9 @@
       </geometry>
     </visual>
     <collision>
-      <origin rpy="3.14 0 0" xyz="-0.001 0 0.0003"/>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://piper_description/meshes/link8.STL"/>
+        <mesh filename="package://piper_description/meshes/dae/link8.dae"/>
       </geometry>
     </collision>
   </link>
