@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: piper_l_description
+    relative_path: urdf/piper_l_description.xacro
+    xacro_args: ""
+  SRDF:
+    relative_path: config/piper_l_camera.srdf
+  CONFIG:
+    author_name: agilex
+    author_email: agilex@agilex.ai
+    generated_timestamp: 1767776330
