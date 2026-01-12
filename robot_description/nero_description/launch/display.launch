@@ -16,5 +16,5 @@
     name="rviz"
     pkg="rviz"
     type="rviz"
-    args="-d $(find nero_description)/urdf.rviz" />
+    args="-d $(find nero_description)/rviz/piper_ctrl.rviz" />
 </launch>
