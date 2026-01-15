@@ -310,13 +310,13 @@
     <visual name="">
       <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://piper_description/meshes/dae/realsense_mid_stand.dae"/>
+        <mesh filename="package://piper_x_description/meshes/dae/realsense_mid_stand.dae"/>
       </geometry>
     </visual>
     <collision>
       <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://piper_description/meshes/dae/realsense_mid_stand.dae"/>
+        <mesh filename="package://piper_x_description/meshes/dae/realsense_mid_stand.dae"/>
       </geometry>
     </collision>
   </link>
