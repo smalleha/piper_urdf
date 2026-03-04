@@ -313,7 +313,7 @@
       velocity="10" />
   </joint>
   <link
-    name="link6">
+    name="Link6">
     <inertial>
       <origin xyz="0 0 -0.00351" rpy="0 0 0"/>
       <mass value="0.01"/>
@@ -368,4 +368,5 @@
       velocity="10" />
   </joint>
   
+
 </robot>
